@@ -9,6 +9,8 @@ This is the frontend for the Zivra Platform, built with React, TypeScript, and V
 - **Game Management**: Review and approve/reject games.
 - **Testing**: Includes Cypress for E2E tests and Vitest for unit tests.
 
+(API documentation is available at: https://zivra-backend.azurewebsites.net/docs/)
+
 ## Prerequisites
 
 Ensure you have the following installed:
@@ -23,11 +25,7 @@ Requirements:
 -	Nodejs
 
 
-1. Clone the repository:
-   ```bash
-   git clone https://your-name@bitbucket.org/ictinnovaties-zorg/zivra-platform-frontend.git
-   cd zivra-platform-frontend
-   ```
+1. Clone the repository
 
 2. Install dependencies:
    ```bash
@@ -114,13 +112,6 @@ npm run test:vitest
 - **`cypress`**: End-to-end tests using Cypress.
 
 
-## CI/CD
-
-The project uses Bitbucket Pipelines for CI/CD. The configuration is in `bitbucket-pipelines.yml`. It includes:
-
-- Running Vitest tests.
-- Running Cypress E2E tests in parallel.
-
 ## Full Dependency List
 
 Below is a list of all npm packages used in this project, with their versions as specified in `package.json`:
@@ -163,7 +154,9 @@ Below is a list of all npm packages used in this project, with their versions as
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Expanding the ESLint configuration
 
